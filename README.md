@@ -1,1 +1,1 @@
-https://Konstant88.github.io/sschool-cv/cv
+https://konstant88.github.io/rsschool-cv/cv
