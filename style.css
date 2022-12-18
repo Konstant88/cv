@@ -1,6 +1,5 @@
 body {
-    width: 100%;
-
+    width: 100% ;
 }
 a { 
     text-decoration: none;
@@ -10,6 +9,8 @@ a {
     max-width: 1024px;
     display: flex;
     flex-direction:row;
+    border: black solid 1px;
+    margin: 45px auto;
 }
 .left {
     width: 30%;
@@ -72,6 +73,9 @@ a {
     margin: 0px 0px 80px 0px;
     background-color:#888888
 }
+.about, .education, .experience, .project {
+    margin-bottom: 48px;
+}
 .about__me {
     line-height: 24px;
     border-top: 1px solid #000000;
@@ -103,9 +107,29 @@ a {
 .description__item2 {
     width: 65%;
 }
-.experience {
+
+.experience_block {
+    border-top: solid grey 1px;
+    padding: 10px;
 }
-.project {
+.project_item1 {
+    list-style: inside;
+    border-top: solid grey 1px;
+    padding: 10px;
 }
-.footer {
+.project_item1 li {
+    padding-left: 5px;
+}
+.nav_list {
+    display: flex;
+    flex-direction:row;
+    margin-top: 8rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_list li a i.fab {
+ font-size: 45px;
+}
+.year{
+    font-size: 35px;
 }
